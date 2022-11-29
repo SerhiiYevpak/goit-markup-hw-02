@@ -6,7 +6,34 @@
 /* color:#E7E9FC;  Accent*/
 /* color:#F4F4FD;  Light*/
 
+/* font-family: 'Raleway', sans-serif; */
+
+:root
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
+  color: #434455;
 }
+.logo {
+  color: #2E2F42;
+}
+.list{
+  list-style: none;
+}
+
+.button {
+  background-color: #F4F4FD;
+  cursor: pointer;
+
+}
+.site-nav a{
+  color: #2E2F42;
+}
+.site-nav a:hover {
+  color: #434455;
+}
+.site-nav a:focus {
+  color: #4D5AE5;
+}
+
