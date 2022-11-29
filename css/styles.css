@@ -1,4 +1,12 @@
+/* color:#4D5AE5;  Primary Brand  */
+/* color:#2E2F42;  Dark*/
+/* color:#31D0AA;  Success*/
+/* color:#434455;  Text*/
+/* color:#8E8F99;  Subtle Text*/
+/* color:#E7E9FC;  Accent*/
+/* color:#F4F4FD;  Light*/
+
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
 }
