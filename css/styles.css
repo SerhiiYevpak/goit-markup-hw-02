@@ -28,15 +28,23 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-/* top-line-logo */
-.header-logo {
-  color: var(--primary-header-color);
+/* logo */
+.logo-item,
+.footer-logo {
+  color: var(--primary-brand-color);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
+}
+.header-logo {
+  color: var(--primary-header-color);
+}
+.footer-logo {
+  color: var(--primary-cloud-color);
 }
 /* top-line */
 .page-header {
@@ -89,23 +97,25 @@ body {
 }
 
 /* sections */
-.features-title {
+
+.section-title {
   color: var(--primary-header-color);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.work-title,
-.team-title {
-  color: var(--primary-header-color);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
 }
-.section-team {
+.team-title,
+.features-title,
+.project-title {
+  color: var(--primary-header-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team-item {
   background-color: var(--primary-cloud-color);
 }
 /* footer */
@@ -115,36 +125,23 @@ body {
 .text-footer {
   color: #e7e9fc;
 }
-.page-footer {
-  text-decoration: none;
-}
-/* footer-logo */
-.logo-footer {
-  color: var(--primary-cloud-color);
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
 
 /* portfolio */
 .button {
+  background-color: var(--primary-cloud-color);
+  color: var(--primary-brand-color);
+  cursor: pointer;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.button.primary {
+.button:hover,
+.button:focus {
   background-color: var(--primary-brand-color);
   color: var(--primary-bg-color);
-  cursor: pointer;
-}
-.button.secondary {
-  background-color: var(--primary-cloud-color);
-  color: var(--primary-brand-color);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .project-items .project-item {
   text-decoration: none;
