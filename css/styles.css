@@ -29,8 +29,7 @@ body {
   margin: -1px;
 }
 /* logo */
-.logo-item,
-.footer-logo {
+.logo-item {
   color: var(--primary-brand-color);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -141,7 +140,6 @@ body {
 .button:focus {
   background-color: var(--primary-brand-color);
   color: var(--primary-bg-color);
-  /* cursor: pointer; */
 }
 .project-items .project-item {
   text-decoration: none;
